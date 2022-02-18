@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: jsliweijun
+subtitle: '种一棵树最好的时间是十年前，其次是现在。'
 description: ''
-keywords:
-author: John Doe
+keywords: 个人博客
+author: Oliver Li
 language: en
 timezone: ''
 
@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: noise
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

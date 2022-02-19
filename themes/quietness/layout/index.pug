@@ -69,12 +69,13 @@ block main
       .footer-content
         - var year = date(new Date(), 'YYYY');
         = '© ' + year + ' '
-        a(href='/', rel='nofollow')= config.title
-        = '. Powered by '
-        a(rel='nofollow', target='_blank', href='https://hexo.io') Hexo
-        = '. Theme '
-        a(target='_blank', href='https://github.com/lotabout/hexo-theme-noise') noise
-        |.
+        a(href='/', rel='nofollow')= config.author
+        //- a(href='/', rel='nofollow')= config.title
+        //- = '. Powered by '
+        //- a(rel='nofollow', target='_blank', href='https://hexo.io') Hexo
+        //- = '. Theme '
+        //- a(target='_blank', href='https://github.com/lotabout/hexo-theme-noise') noise
+        //- |.
 
     if theme.infinite_scroll
       script(src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js")

@@ -1,21 +1,26 @@
 # Header
 menu:
-  ## If your site is put in a subdirectory, set Home as '/child/'
-  Home: /
-  Archives: archives
+    ## If your site is put in a subdirectory, set Home as '/child/'
+    Home: /
+    Archives: archives
 
+## 配置了值后，就会展示
 social:
-  email:
-  twitter:
-  weibo:
-  github:
-  googleplus:
-  rss: /atom.xml
+    email:
+    twitter:
+    weibo:
+    github: jsliweijun
+    googleplus:
+    rss:
 
 # Content
 fancybox: true # set to true if you want to use it
 infinite_scroll: false # set to true if you want to use it
-toc_words: "Table of Contents" # the line shown in toc
+show_toc: true
+# toc_words: 'Table of Contents' # the line shown in toc
+toc:
+    number: false # 关闭目录中的数字编号
+toc_words: '文章目录' # the line shown in toc
 show_toc_by_default: true # to show toc if `toc:` is not specified in post
 compact_index: false # to use compact version of index page
 
@@ -25,7 +30,6 @@ google_analytics: #Google Analytics Tracking Code
 google_adsense_page_level_ads: #Google Adsense Page Level Ads Code
 
 less:
-  paths:
-    - source/css
-  compress:
-    true
+    paths:
+        - source/css
+    compress: true

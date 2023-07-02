@@ -1,0 +1,103 @@
+<!DOCTYPE html><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Markdown 是一种标记语言，语法简单，容易编写和阅读。可用于编写文档或者文章，文章结构清晰且简单，比使用传统的 word 更能提高效率。"><link rel="stylesheet" type="text/css" href="/css/normalize.css"><link rel="stylesheet" type="text/css" href="/css/highlight.css"><link rel="stylesheet" type="text/css" href="/css/noise.css"><title>掌握 Markdown | Liam's Blog</title><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><meta name="generator" content="Hexo 5.4.1"></head><body><article class="wrapper"><div class="post-main"><div class="nav"><nav class="container"><a class="sidebar-nav-item active" href="/">Home</a><a class="sidebar-nav-item" href="/archives">Archives</a></nav><div class="container post-meta"><div class="post-tags"><a class="post-tag-none-link" href="/tags/md/" rel="tag">md</a></div><div class="post-time">创建时间 : 2016-07-03 ; </div><div class="post-time">最近更新时间 : 2022-02-19</div></div></div><div class="container post-header"><h1>掌握 Markdown</h1></div><div class="container post-toc"><details class="toc"><summary class="toc-accordion">文章目录</summary><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">一 基础语法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%A0%87%E9%A2%98%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.</span> <span class="toc-text">1. 标题语法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text">展示一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.</span> <span class="toc-text">展示二级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.1.</span> <span class="toc-text">展示三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.1.1.</span> <span class="toc-text">展示四级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.1.1.1.</span> <span class="toc-text">展示五级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.1.1.1.1.</span> <span class="toc-text">展示六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%AE%B5%E8%90%BD%E8%AF%AD%E6%B3%95"><span class="toc-number">2.2.</span> <span class="toc-text">2. 段落语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%96%B0%E8%A1%8C%E8%AF%AD%E6%B3%95%EF%BC%88%E6%8D%A2%E8%A1%8C%E8%AF%AD%E6%B3%95%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">3. 新行语法（换行语法）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%BC%BA%E8%B0%83%E8%AF%AD%E6%B3%95"><span class="toc-number">2.4.</span> <span class="toc-text">4. 强调语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E5%8A%A0%E7%B2%97"><span class="toc-number">2.4.1.</span> <span class="toc-text">4.1 加粗</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-%E6%96%9C%E4%BD%93"><span class="toc-number">2.4.2.</span> <span class="toc-text">4.2 斜体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-3-%E5%8A%A0%E7%B2%97%E4%B8%94%E6%96%9C%E4%BD%93"><span class="toc-number">2.4.3.</span> <span class="toc-text">4.3 加粗且斜体</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%BC%95%E7%94%A8%E8%AF%AD%E6%B3%95"><span class="toc-number">2.5.</span> <span class="toc-text">5. 引用语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%88%97%E8%A1%A8%E8%AF%AD%E6%B3%95"><span class="toc-number">2.6.</span> <span class="toc-text">6. 列表语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#6-1-%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">2.6.1.</span> <span class="toc-text">6.1 无序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-2-%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">2.6.2.</span> <span class="toc-text">6.2 有序列表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E9%93%BE%E6%8E%A5%E8%AF%AD%E6%B3%95"><span class="toc-number">2.7.</span> <span class="toc-text">7. 链接语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95"><span class="toc-number">2.8.</span> <span class="toc-text">8. 图片语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E5%88%86%E5%89%B2%E7%BA%BF%E8%AF%AD%E6%B3%95"><span class="toc-number">2.9.</span> <span class="toc-text">9. 分割线语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E4%BB%A3%E7%A0%81%E8%AF%AD%E6%B3%95"><span class="toc-number">2.10.</span> <span class="toc-text">10. 代码语法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C-Markdown-%E7%BC%96%E8%BE%91%E5%99%A8"><span class="toc-number">3.</span> <span class="toc-text">二 Markdown 编辑器</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89-%E5%8F%82%E8%80%83"><span class="toc-number">4.</span> <span class="toc-text">三 参考</span></a></li></ol></details></div><div class="container post-content"><p>Markdown 是一种标记语言，语法简单，容易编写和阅读。可用于编写文档或者文章，文章结构清晰且简单，比使用传统的 word 更能提高效率。</p>
+<h1 id="一-基础语法"><a href="#一-基础语法" class="headerlink" title="一 基础语法"></a>一 基础语法</h1><h2 id="1-标题语法"><a href="#1-标题语法" class="headerlink" title="1. 标题语法"></a>1. 标题语法</h2><p>下面是 6 个 markdown 的标题语法。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 展示一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 展示二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 展示三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 展示四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 展示五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 展示六级标题</span></span><br></pre></td></tr></table></figure>
+
+<p>下面是不同标题等级的展示效果。</p>
+<blockquote>
+<h1 id="展示一级标题"><a href="#展示一级标题" class="headerlink" title="展示一级标题"></a>展示一级标题</h1><h2 id="展示二级标题"><a href="#展示二级标题" class="headerlink" title="展示二级标题"></a>展示二级标题</h2><h3 id="展示三级标题"><a href="#展示三级标题" class="headerlink" title="展示三级标题"></a>展示三级标题</h3><h4 id="展示四级标题"><a href="#展示四级标题" class="headerlink" title="展示四级标题"></a>展示四级标题</h4><h5 id="展示五级标题"><a href="#展示五级标题" class="headerlink" title="展示五级标题"></a>展示五级标题</h5><h6 id="展示六级标题"><a href="#展示六级标题" class="headerlink" title="展示六级标题"></a>展示六级标题</h6></blockquote>
+<p>按上面的语法，使用 # 进行写标题，能有 6 个级别的标题等级。</p>
+<p>好的写标题方式：</p>
+<blockquote>
+<ol>
+<li>#号与标题文字间有一个空格。</li>
+<li>标题上下有空行。</li>
+</ol>
+</blockquote>
+<h2 id="2-段落语法"><a href="#2-段落语法" class="headerlink" title="2. 段落语法"></a>2. 段落语法</h2><p>在 Markdown 文档中写段落时，独立的一段文字，上下使用空白行进行与其他段落进行分离即可。书写一段文字时，不要使用 tab 制表符或者空格进行段落的首字缩进。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 我是标题</span></span><br><span class="line"></span><br><span class="line">这是第一段文字，与标题有一个空行,与下面第二段文字也有空行。</span><br><span class="line"></span><br><span class="line">这是第二段文字。每段文字开头不需要缩进。</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-新行语法（换行语法）"><a href="#3-新行语法（换行语法）" class="headerlink" title="3. 新行语法（换行语法）"></a>3. 新行语法（换行语法）</h2><p>在一段文字中，需要将某句文字进行新行显示，只要在它的前一句末尾加两个空格（结尾空格）。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">这段文字中，需要将一句话使用新行显示。  </span><br><span class="line">新行句子。这个新行句子与前面句子不要有空行。</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-强调语法"><a href="#4-强调语法" class="headerlink" title="4. 强调语法"></a>4. 强调语法</h2><p>用于对相关文本进行加粗和斜体设置。</p>
+<h3 id="4-1-加粗"><a href="#4-1-加粗" class="headerlink" title="4.1 加粗"></a>4.1 加粗</h3><p>使用 ** 星号对文本进行包裹。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这句话中重要的是：<span class="strong">**什么？**</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这句话中重要的是：<strong>什么？</strong></p>
+</blockquote>
+<h3 id="4-2-斜体"><a href="#4-2-斜体" class="headerlink" title="4.2 斜体"></a>4.2 斜体</h3><p>使用 _ 下划线，或者 一个 * 星号对文本进行包裹。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这句话中重要的是：<span class="emphasis">_什么？_</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这句话中重要的是：<em>什么？</em></p>
+</blockquote>
+<h3 id="4-3-加粗且斜体"><a href="#4-3-加粗且斜体" class="headerlink" title="4.3 加粗且斜体"></a>4.3 加粗且斜体</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这句话中重要的是：**_什么？_**</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这句话中重要的是：**<em>什么？</em>**</p>
+</blockquote>
+<h2 id="5-引用语法"><a href="#5-引用语法" class="headerlink" title="5. 引用语法"></a>5. 引用语法</h2><p>将文本展示在引用块中，使用 &gt; 创建一个引用块。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 业精于勤，荒于嬉。</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>业精于勤，荒于嬉。</p>
+</blockquote>
+<p>嵌套引用</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 你喜欢的句子是什么？</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt; &gt; 种一棵树最好的时间是十年前，其次是现在。</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>你喜欢的句子是什么？</p>
+<blockquote>
+<p>种一棵树最好的时间是十年前，其次是现在。</p>
+</blockquote>
+</blockquote>
+<h2 id="6-列表语法"><a href="#6-列表语法" class="headerlink" title="6. 列表语法"></a>6. 列表语法</h2><p>列表方式有两种，无序列表使用 - 在每个项目前，有序列表使用数字。</p>
+<h3 id="6-1-无序列表"><a href="#6-1-无序列表" class="headerlink" title="6.1 无序列表"></a>6.1 无序列表</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span>   html</span><br><span class="line"><span class="bullet">-</span>   css</span><br><span class="line"><span class="bullet">-</span>   js</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<ul>
+<li>  html</li>
+<li>  css</li>
+<li>  js</li>
+</ul>
+</blockquote>
+<h3 id="6-2-有序列表"><a href="#6-2-有序列表" class="headerlink" title="6.2 有序列表"></a>6.2 有序列表</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span>  vue</span><br><span class="line"><span class="bullet">2.</span>  react</span><br><span class="line"><span class="bullet">3.</span>  angular</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<ol>
+<li> vue</li>
+<li> react</li>
+<li> angular</li>
+</ol>
+</blockquote>
+<h2 id="7-链接语法"><a href="#7-链接语法" class="headerlink" title="7. 链接语法"></a>7. 链接语法</h2><p>使用以下语法，可以使文本具有链接功能，点击后跳转到指定页面。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">百度</span>](<span class="link">www.baidu.com</span>)</span><br><span class="line">[<span class="string">GitHub</span>](<span class="link">www.github.com</span>)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><a href="www.baidu.com">百度</a><br><a href="www.github.com">GitHub</a></p>
+</blockquote>
+<h2 id="8-图片语法"><a href="#8-图片语法" class="headerlink" title="8. 图片语法"></a>8. 图片语法</h2><p>文章中引入图片，也是和链接语法类似，只需要在前面多加一个 感叹号 !。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">本地图片</span><br><span class="line">![avater](/images/avatar.jpg)</span><br><span class="line"></span><br><span class="line">互联网图片</span><br><span class="line">![avater](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>本地图片<br><img src="/images/avatar.jpg" alt="avatar"></p>
+<p>互联网图片<br><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" alt="avatar"></p>
+</blockquote>
+<h2 id="9-分割线语法"><a href="#9-分割线语法" class="headerlink" title="9. 分割线语法"></a>9. 分割线语法</h2><p>在文章中使用分割线，只要使用 <code>---</code> 三个中横线。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">段落 1，段落 1</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">段落 2，段落 2</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>段落 1，段落 1，下面有一条分隔线。</p>
+<hr>
+<p>段落 2，段落 2</p>
+</blockquote>
+<h2 id="10-代码语法"><a href="#10-代码语法" class="headerlink" title="10. 代码语法"></a>10. 代码语法</h2><p>在文章中，显示代码块，使用 `` 反引号包裹代码。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">&#x27;http&#x27;</span>);</span><br><span class="line">http.<span class="title function_">createServer</span>(<span class="keyword">function</span> (<span class="params">req, res</span>) &#123;</span><br><span class="line">    res.<span class="title function_">writeHead</span>(<span class="number">200</span>, &#123; <span class="string">&#x27;Content-Type&#x27;</span>: <span class="string">&#x27;text/plain&#x27;</span> &#125;);</span><br><span class="line">    res.<span class="title function_">end</span>(<span class="string">&#x27;Hello World\n&#x27;</span>);</span><br><span class="line">&#125;).<span class="title function_">listen</span>(<span class="number">1337</span>, <span class="string">&#x27;127.0.0.1&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Server running at http://127.0.0.1:1337/&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<h1 id="二-Markdown-编辑器"><a href="#二-Markdown-编辑器" class="headerlink" title="二 Markdown 编辑器"></a>二 Markdown 编辑器</h1><p><a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">在线编辑器</a></p>
+<h1 id="三-参考"><a href="#三-参考" class="headerlink" title="三 参考"></a>三 参考</h1><p><a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown 官方教程</a><br><a target="_blank" rel="noopener" href="https://www.markdown.xyz/">Markdown 指南中文版</a><br><a target="_blank" rel="noopener" href="https://www.markdownguide.org/basic-syntax">Markdown 基础语法</a><br><a target="_blank" rel="noopener" href="https://www.markdownguide.org/extended-syntax">Markdown 扩展语法</a><br><a target="_blank" rel="noopener" href="https://www.markdowntutorial.com/zh-cn/">markdowntutorial</a></p>
+</div></div></article><link rel="stylesheet" type="text/css" href="/css/font.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.css"><script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script><script src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script><script>$(document).ready(function() {
+  $(".fancybox").fancybox();
+});
+</script></body></html>

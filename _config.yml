@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Oliver's Blog
+title: Liam's Blog
 subtitle: '种一棵树最好的时间是十年前，其次是现在。'
 description: '个人博客'
 keywords: 个人博客
-author: Oliver
+author: Liam
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.jsliweijun.top/
+## Set your site url here. For example, if you use GitHub Page, set url as
+## 'https://username.github.io/project'
+url: https://jsliweijun.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
